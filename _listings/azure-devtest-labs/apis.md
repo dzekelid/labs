@@ -6,10 +6,10 @@ description: Azure DevTest Labs makes it easy to quickly create environments to 
   Linux environments while minimalizing waste and controlling costs.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Labs
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlablabs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlablabs-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlablabs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlablabs-get-openapi.md
 - name: Azure DevTest Labs API Labs List By Resource Group
   x-api-slug: azure-devtest-labs-api
   description: List labs in a resource group.
@@ -34,9 +34,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabs-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabs-get-openapi.md
 - name: Azure DevTest Labs API Labs Get
   x-api-slug: azure-devtest-labs-api
   description: Get lab.
@@ -46,9 +46,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-get-openapi.md
 - name: Azure DevTest Labs API Labs Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing lab. This operation can take a while
@@ -59,7 +59,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-put-openapi.md
 - name: Azure DevTest Labs API Labs Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete lab. This operation can take a while to complete.
@@ -69,7 +69,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-delete-openapi.md
 - name: Azure DevTest Labs API Labs Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of labs.
@@ -79,7 +79,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-patch-openapi.md
 - name: Azure DevTest Labs API Labs Claim Any Vm
   x-api-slug: azure-devtest-labs-api
   description: Claim a random claimable virtual machine in the lab. This operation
@@ -90,7 +90,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameclaimanyvm-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameclaimanyvm-post-openapi.md
 - name: Azure DevTest Labs API Labs Create Environment
   x-api-slug: azure-devtest-labs-api
   description: Create virtual machines in a lab. This operation can take a while to
@@ -101,7 +101,7 @@ apis:
   tags: Labs Environment
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamecreateenvironment-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamecreateenvironment-post-openapi.md
 - name: Azure DevTest Labs API Labs Export Resource Usage
   x-api-slug: azure-devtest-labs-api
   description: Exports the lab resource usage into a storage account This operation
@@ -112,7 +112,7 @@ apis:
   tags: Labs Export
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameexportresourceusage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameexportresourceusage-post-openapi.md
 - name: Azure DevTest Labs API Labs Generate Upload Uri
   x-api-slug: azure-devtest-labs-api
   description: Generate a URI for uploading custom disk images to a Lab.
@@ -122,7 +122,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamegenerateuploaduri-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamegenerateuploaduri-post-openapi.md
 - name: Azure DevTest Labs API Labs List Vhds
   x-api-slug: azure-devtest-labs-api
   description: List disk images available for custom image creation.
@@ -132,7 +132,7 @@ apis:
   tags: Labs Vhds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamelistvhds-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamelistvhds-post-openapi.md
 - name: Azure DevTest Labs API
   x-api-slug: azure-devtest-labs-api
   description: Azure DevTest Labs makes it easy to quickly create environments to
