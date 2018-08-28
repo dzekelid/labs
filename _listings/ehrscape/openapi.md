@@ -1,19 +1,18 @@
----
 swagger: "2.0"
 x-collection-name: EhrScape
 x-complete: 1
 info:
-  title: Ehr Scape Electronic Health Record APIs
-  description: a-simple-yet-powerful-services-to-store-retrieve-and-query-health-data
+  title: EhrScape Terminology APIs
+  description: validates-and-resolves-terminology-codes
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /rest/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /terminology-adapter/rest
 paths:
   /view/{ehrId}/labs:
     get:
@@ -41,4 +40,3 @@ paths:
       - View
       - EhrId
       - Labs
----

@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Labs",
+	"description": "This is a repository of labs APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/labs.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://labs.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "EhrScape",
+			"x-api-slug": "ehrscape",
+			"description": "Health app development shouldnt be harder than other verticals. EhrScape is all about making awesome healthcare apps easy to build and integrate into your environment. Healthcare computing that just works. EhrScape handles all the hard bits, including detailed clinical models, semantic interoperability, vendor independent data storage, health data query and more. Our mission is to empower you to build amazing healthcare apps and services. Welcome aboard. Were just getting started and weve got very big plans!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EHRScape-Logo.png",
+			"humanURL": "https://www.ehrscape.com",
+			"baseURL": "http://rest.ehrscape.com//terminology-adapter/rest",
+			"tags": "Labs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/ehrscape/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"x-api-slug": "azure-devtest-labs",
+			"description": "Azure DevTest Labs makes it easy to quickly create environments to deploy and test applications. Use reusable templates and artifacts to build Windows and Linux environments while minimalizing waste and controlling costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/devtest-lab/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Labs",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Labs",
+	"include": [
+		{
+			"name": "EhrScape",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/ehrscape/apis.yaml"
+		},
+		{
+			"name": "Azure DevTest Labs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/labs/master/_listings/azure-devtest-labs/apis.yaml"
+		}
+	]
+}

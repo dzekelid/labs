@@ -6,14 +6,14 @@ info:
   title: Ehr Scape Electronic Health Record APIs Lab results
   description: Lab results.
   version: 1.0.0
-host: rest.ehrscape.com
-basePath: /rest/v1
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: rest.ehrscape.com
+basePath: /rest/v1
 paths:
   /view/{ehrId}/labs:
     get:

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure DevTest Labs
 x-complete: 1
@@ -164,52 +163,6 @@ paths:
           description: OK
       tags:
       - Labs
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/createEnvironment:
-    post:
-      summary: Labs Create Environment
-      description: Create virtual machines in a lab. This operation can take a while
-        to complete.
-      operationId: Labs_CreateEnvironment
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamecreateenvironment-post
-      parameters:
-      - in: body
-        name: labVirtualMachineCreationParameter
-        description: Properties for creating a virtual machine
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: name
-        description: The name of the lab
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Labs Environment
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/exportResourceUsage
-  : post:
-      summary: Labs Export Resource Usage
-      description: Exports the lab resource usage into a storage account This operation
-        can take a while to complete.
-      operationId: Labs_ExportResourceUsage
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameexportresourceusage-post
-      parameters:
-      - in: body
-        name: exportResourceUsageParameters
-        description: The parameters of the export operation
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: name
-        description: The name of the lab
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Labs Export
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/generateUploadUri:
     post:
       summary: Labs Generate Upload Uri
@@ -232,21 +185,3 @@ paths:
           description: OK
       tags:
       - Labs
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevTestLab/labs/{name}/listVhds:
-    post:
-      summary: Labs List Vhds
-      description: List disk images available for custom image creation.
-      operationId: Labs_ListVhds
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamelistvhds-post
-      parameters:
-      - in: path
-        name: name
-        description: The name of the lab
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Labs Vhds
----
